@@ -864,3 +864,128 @@ left: 50%;
 	 display:none;
 	}
 }
+
+  /*--------------------------------*/
+ /*            contact page        */
+/*--------------------------------*/
+
+#page-content-wrapper{
+  background:#EFF0F4;
+}  
+.content-banner-contact {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  bottom: 63px;
+  padding: 45px 60px;
+  position: absolute;
+  width: auto;
+}
+.content-banner-contact > h2 {
+  font-size: 50px;
+  margin: 0;
+}
+.contact-page input {
+  border: 0 none;
+  height: 43px;
+  width: 100% !important;
+}
+.contact-page textarea {
+  border: 0 none;
+  width: 100% !important;
+  height:190px;
+}
+.contact-desp {
+  color: #012b43;
+  font-size: 15px;
+  font-weight: 700;
+}
+.dbo-heading.contact-desp-heading {
+  font-size: 22px;
+  margin: 0 0 5px;
+}
+.contact-social {
+  padding: 0;
+}
+.contact-social > li {
+  display: inline;
+  list-style: outside none none;
+  padding-right: 26px;
+}
+.contact-social i {
+  color: #012b41;
+  font-size: 26px;
+}
+.contact-seperator {
+  border-top: 1px solid #ddd !important;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+.btn.btn-primary {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #208448;
+  border-radius: 50px;
+  color: #208448;
+  float: right;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  padding: 10px 55px;
+  text-transform: uppercase;
+}
+
+.contact-page input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page input::-moz-placeholder { /* Firefox 19+ */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page input:-ms-input-placeholder { /* IE 10+ */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page input:-moz-placeholder { /* Firefox 18- */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.contact-page textarea:-moz-placeholder { /* Firefox 18- */
+  color: #d8dbe2;
+  font-size: 15px;
+  font-weight:600;
+}
+.jumbotron-contact{
+  background: hsla(0, 0%, 0%, 0) url("../images/contact-banner.jpg") repeat scroll center center / cover;
+  border-top:2px solid #d8dbe2;
+}
+@media only screen and (max-width: 767px) {
+
+.content-banner-contact > h2 {
+  font-size: 26px;
+  margin: 0;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+.contact-resp{
+    margin-top: 95px;
+}
+}
