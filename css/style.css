@@ -840,9 +840,11 @@ left: 50%;
 .custom-nav .nav.navbar-nav a {
   margin-top: 8px;
 }
+}
 @media only screen and (min-width: 991px) {
 .col-md-3.custom-md-3 {
   width: 20%;
+  float:left;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px){
@@ -864,6 +866,7 @@ left: 50%;
 	 display:none;
 	}
 }
+
 
   /*--------------------------------*/
  /*            contact page        */
@@ -972,10 +975,6 @@ left: 50%;
   font-size: 15px;
   font-weight:600;
 }
-.jumbotron-contact{
-  background: hsla(0, 0%, 0%, 0) url("../images/contact-banner.jpg") repeat scroll center center / cover;
-  border-top:2px solid #d8dbe2;
-}
 @media only screen and (max-width: 767px) {
 
 .content-banner-contact > h2 {
@@ -987,5 +986,208 @@ left: 50%;
 @media only screen and (max-width: 1199px) {
 .contact-resp{
     margin-top: 95px;
+}
+}
+  /*--------------------------------*/
+ /*            about-us page       */
+/*--------------------------------*/
+.jumbotron .about-para {
+  color: hsl(201, 100%, 13%);
+  font-family: open sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.7em;
+  margin-bottom: 25px;
+}
+.about-jumbotron .content-banner {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  bottom: -117px;
+  padding: 5px 34px 1px;
+  position: absolute;
+  width: 521px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+	box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+}
+.quelques {
+  padding-top: 110px;
+}
+.align-center{
+  text-align:center;	
+}
+.odb-inner-about {
+  background: #fff none repeat scroll 0 0;
+  padding: 46px 40px;
+  text-align: center;
+  min-height: 319px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+}
+.dbo-about-sub {
+  color: #002b42;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.33em;
+}
+.count-digit {
+  color: #208449;
+  font-family: vollkornregular;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.about-us-sub-heading {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.odb-inner-about > img {
+  margin-bottom: 30px;
+}
+.padding-left-zero{
+  padding-left:0px;
+}
+.margin-top-neg-about {
+  padding: 32px;
+  margin-top: -230px;
+}
+.nos-valeurs {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.nos-valeurs:last-child {
+  margin: 0;
+}
+.nos-valerus-space{
+  padding-bottom: 50px;
+}
+.float-right{
+  float:right;
+}
+.img__wrap {
+  position: relative;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  margin-bottom:20px;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  color: #000000;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+  
+}
+.img-text-name{
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 9%, rgba(0,0,0,0.06) 18%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 9%,rgba(0,0,0,0.06) 18%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 9%,rgba(0,0,0,0.06) 18%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+.img-text-name {
+  bottom: 0;
+  height: 307px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.mug-name {
+  color: #fff;
+  font-family: vollkornregular;
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom:0px;
+}
+.mug-position {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.img__description > p {
+  color: hsl(201, 100%, 13%);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0 18px;
+  text-align: center;
+}
+.img-mug-social-profiles {
+  border-top: 1px solid #ddd;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.img-mug-social-profiles a {
+  color: #208448;
+  font-size: 17px;
+}
+.img-mug-social-profiles > li {
+  display: inline;
+  list-style: outside none none;
+  margin-right: 10px;
+}
+.img-text-name-sub {
+  bottom: 12px;
+  position: absolute;
+  width: 100%;
+}
+.icg-profiles {
+  padding: 40px 0;
+}
+.nos-head {
+  color: #fff;
+  left: 32px;
+  position: absolute;
+  top: 56px;
+}
+.jumbotron.about-jumbotron{
+  background: hsla(0, 0%, 0%, 0) url("../images/about-banner.jpg") repeat scroll center center / cover ;
+}
+@media only screen and (max-width: 767px) {
+.about-jumbotron .content-banner {
+  width: 322px;
+}
+.margin-top-neg-about {
+  margin-top: -149px;
+}
+.col-md-4.col-md-offset-7.margin-top-neg.margin-top-neg-about {
+  text-align: center !important;
+}
+}
+@media only screen and (max-width: 991px) {
+.col-md-4.col-md-offset-7.margin-top-neg.margin-top-neg-about{
+  margin-top:0px;
+}
+.lire-mobile{
+  float:none;
 }
 }
