@@ -461,7 +461,7 @@ h2 {
 }
 /* The colour of the indicators */
 .carousel-indicators li {
-  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  background: transparent;
   border: 2px solid hsl(213, 16%, 86%);
 }
 .carousel-indicators .active {
@@ -994,8 +994,8 @@ left: 50%;
 .jumbotron .about-para {
   color: hsl(201, 100%, 13%);
   font-family: open sans;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1.7em;
   margin-bottom: 25px;
 }
@@ -1174,7 +1174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 @media only screen and (max-width: 767px) {
 .about-jumbotron .content-banner {
-  width: 322px;
+  width: 292px;
 }
 .margin-top-neg-about {
   margin-top: -149px;
@@ -1190,4 +1190,249 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .lire-mobile{
   float:none;
 }
+}
+  /*--------------------------------*/
+ /*            Offers page         */
+/*--------------------------------*/
+.jumbotron.about-jumbotron.offers-jumbotron{
+  background: hsla(0, 0%, 0%, 0) url("../images/intelligence.jpg") repeat scroll center center / cover ;
+}
+.offers-jumbotron h2 {
+  margin-top: 10px;
+}
+.di-img {
+  padding-top: 21px;
+}
+.les-enjuex {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  margin-top: 175px;
+}
+.paragraph-sub-offers {
+  color: hsl(201, 100%, 13%);
+  font-family: open sans;
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.7em;
+  margin-bottom: 25px;
+}
+@media (min-width: 992px) {
+.two-sections::after {
+  background: hsla(0, 0%, 0%, 0) url("../images/graph-bg.jpg") repeat scroll 0 0 / cover ;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  z-index: 1;
+}
+.two-sections::before {
+  background-color: #FFFFFF;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 35%;
+}
+}
+@media (max-width: 991px) {
+.green{
+  background:#FFFFFF;
+  margin-bottom: 15px;
+}
+.blue{
+ background: hsla(0, 0%, 0%, 0) url("../images/graph-bg.jpg") repeat scroll 0 0 / cover ;
+}
+.quote {
+  color: rgb(101, 102, 104);
+  font-size: 19px;
+  text-align: center;
+}
+}
+@media (min-width: 991px) {
+.two-sections {
+	padding: 50px 0;
+}
+}
+.col-md-4.min-col-height.green {
+  background: #FFFFFF;
+  z-index: 9;
+}
+.two-sections {
+	position:relative;
+}
+.right-bg{
+  z-index:2;
+}
+.matu-heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.matu-details {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-weight: 600;
+}
+.offers-carousel-box {
+ transition: all 0.5s ease 0s;	
+}
+.offers-carousel-box  .col-md-12 {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  box-shadow: 0px 2px 8px 0px rgba(204,204,204,1);
+  min-height: 325px;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+.offers-carousel-box:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease 0s;
+}
+.offers-boxed {
+  padding: 40px 0;
+}
+.offers-carousel-box .col-md-12 > p {
+  color: hsl(201, 100%, 13%);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 9px;
+  text-align: center;
+}
+.padding-zero{
+  padding:0px;
+}
+.highest-detail-content {
+  background-image: url("../images/plus-inner-img.png");
+  background-position: right center !important;
+  background-repeat: no-repeat;
+  color: hsl(145, 61%, 32%);
+  cursor: pointer;
+  font-family: vollkornregular;
+  font-size: 22px;
+  padding: 20px 30px 20px 0;
+}
+.change-inner-plus-img {
+  background-image: url("../images/minus-inner-img.png") !important;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 46px;
+	border-bottom: 1px solid #333;
+	width: 100%;
+}
+ul.tabs li {
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 1px solid #eee !important;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  color: hsl(222, 15%, 87%);
+  cursor: pointer;
+  float: left;
+  font-family: vollkornregular;
+  font-size: 20px;
+  height: 48px;
+  line-height: 2.3em;
+  margin: 0;
+  overflow: hidden;
+  padding: 0 21px;
+  position: relative;
+  text-align: center;
+}
+.tab_last { border-right: 1px solid #eee; }
+
+
+ul.tabs li.active {
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 1px solid #eee;
+  color: hsl(145, 62%, 32%);
+  display: block;
+}
+.tab_container {
+	border: 1px solid #eee;
+	border-top: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
+
+.tab_content {
+	padding: 20px 2px;;
+	display: none;
+}
+
+.tab_drawer_heading { display: none; }
+
+@media screen and (max-width: 480px) {
+	.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+	  -moz-user-select: none;
+	  background-color: hsl(0, 0%, 100%);
+	  border-top: 1px #eee;
+	  color: hsl(222, 15%, 87%);
+	  cursor: pointer;
+	  display: block;
+	  margin: 0;
+	  padding: 14px 20px;
+	  border-bottom:1px solid hsl(0, 0%, 93%);
+	}
+	.d_active {
+	  background-color: hsl(0, 0%, 100%);
+	  color: hsl(145, 62%, 32%);
+	}
+	}
+}
+.first-tab {
+  background: hsla(0, 0%, 0%, 0) url("../images/Transformation 2- grey.png") no-repeat scroll 27px center / 26px auto;
+}
+.first-tab.active {
+  background: hsla(0, 0%, 0%, 0) url("../images/Transformation 2- green.png") no-repeat scroll 27px center / 26px auto;
+}
+.second-tab {
+  background: hsla(0, 0%, 0%, 0) url("../images/Perfectionnement - grey.png") no-repeat scroll 27px center / 26px auto;
+}
+.second-tab.active {
+  background: hsla(0, 0%, 0%, 0) url("../images/Perfectionnement - Green.png") no-repeat scroll 27px center / 26px auto;
+}
+.third-tab {
+  background: hsla(0, 0%, 0%, 0) url("../images/Consolidation - Grey.png") no-repeat scroll 27px center / 26px auto;
+}
+.third-tab.active {
+  background: hsla(0, 0%, 0%, 0) url("../images/Consolidation - Green.png") no-repeat scroll 27px center / 26px auto;
+}
+.tabby-section {
+  padding-top: 50px;
+}
+.quotes {
+  color: hsl(145, 61%, 32%);
+  font-family: vollkornregular;
+  font-style: italic;
+  margin-bottom:0px;
+}
+.sayings {
+  color: hsl(0, 0%, 29%);
+  font-size: 12px;
+  font-weight: 600;
+}
+.sub-heading-tab-para {
+  color: hsl(201, 100%, 13%);
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.description-sub-tab {
+  color: hsl(201, 100%, 13%);
+  font-size: 13px;
 }
