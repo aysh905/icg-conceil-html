@@ -1267,8 +1267,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .matu-heading {
   color: hsl(0, 0%, 100%);
-  font-size: 24px;
-  margin-bottom: 0;
+  font-size: 25px;
+  line-height: 1.5em;
+  margin-bottom: 18px;
 }
 .matu-details {
   color: hsl(0, 0%, 100%);
@@ -1373,7 +1374,7 @@ ul.tabs li.active {
 
 .tab_drawer_heading { display: none; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
 	.tabs {
 		display: none;
 	}
@@ -1392,25 +1393,25 @@ ul.tabs li.active {
 	  background-color: hsl(0, 0%, 100%);
 	  color: hsl(145, 62%, 32%);
 	}
-	}
 }
+
 .first-tab {
-  background: hsla(0, 0%, 0%, 0) url("../images/Transformation 2- grey.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/Transformationgrey.png") no-repeat scroll 27px center / 26px auto;
 }
 .first-tab.active {
-  background: hsla(0, 0%, 0%, 0) url("../images/Transformation 2- green.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/Transformationgreen.png") no-repeat scroll 27px center / 26px auto;
 }
 .second-tab {
-  background: hsla(0, 0%, 0%, 0) url("../images/Perfectionnement - grey.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/Perfectionnementgrey.png") no-repeat scroll 27px center / 26px auto;
 }
 .second-tab.active {
-  background: hsla(0, 0%, 0%, 0) url("../images/Perfectionnement - Green.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/PerfectionnementGreen.png") no-repeat scroll 27px center / 26px auto;
 }
 .third-tab {
-  background: hsla(0, 0%, 0%, 0) url("../images/Consolidation - Grey.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/ConsolidationGrey.png") no-repeat scroll 27px center / 26px auto;
 }
 .third-tab.active {
-  background: hsla(0, 0%, 0%, 0) url("../images/Consolidation - Green.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/ConsolidationGreen.png") no-repeat scroll 27px center / 26px auto;
 }
 .tabby-section {
   padding-top: 50px;
@@ -1435,4 +1436,141 @@ ul.tabs li.active {
 .description-sub-tab {
   color: hsl(201, 100%, 13%);
   font-size: 13px;
+}
+.footer-top-section-offers {
+  background: hsl(145, 61%, 32%) none repeat scroll 0 0;
+  padding: 30px 0 70px;
+}
+.footer-top-heading-offers {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+.footer-offers-logo  {
+  border-radius: 3px;
+  margin-bottom: 36px;
+  transition: all 0.5s ease 0s;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0,42,66,1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(0,42,66,1);
+  box-shadow: 0px 2px 8px 0px rgba(0,42,66,1);
+}
+.footer-offers-logo:hover {
+  transform: scale(1.1);
+}
+.sub-detail-mat{
+  margin-bottom: 50px;
+}
+.bi-blue-heading {
+  color: hsl(0, 0%, 100%);
+  font-family: vollkornregular;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 17px;
+}
+.matu-details.bi-detail {
+  font-size: 12.5px;
+  padding-bottom: 25px;
+  margin-bottom:0px;
+}
+@media (min-width: 992px) {
+.two-sections.b-intelli::after {
+  background: hsla(0, 0%, 0%, 0) url("../images/bi-blue-bg.jpg") repeat scroll 0 0 / cover ;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  z-index: 1;
+}
+}
+@media (max-width: 991px) {
+.two-sections.b-intelli .blue{
+ background: hsla(0, 0%, 0%, 0) url("../images/graph-bg.jpg") repeat scroll 0 0 / cover ;
+}
+}
+.first-tab-bi {
+  background: hsla(0, 0%, 0%, 0) url("../images/Valorisationgrey.png") no-repeat scroll 54px center / 17px auto;
+}
+.first-tab-bi.active {
+  background: hsla(0, 0%, 0%, 0) url("../images/Valorisationgreen.png") no-repeat scroll 54px center / 17px auto;
+}
+.second-tab-bi {
+  background: hsla(0, 0%, 0%, 0) url("../images/LeDashboardgrey.png") no-repeat scroll 36px center / 26px auto;
+}
+.second-tab-bi.active {
+  background: hsla(0, 0%, 0%, 0) url("../images/LeDashboardgreen.png") no-repeat scroll 36px center / 26px auto;
+}
+.third-tab-bi {
+  background: hsla(0, 0%, 0%, 0) url("../images/AnalyseGrey.png") no-repeat scroll 64px center / 26px auto;
+}
+.third-tab-bi.active {
+  background: hsla(0, 0%, 0%, 0) url("../images/AnalyseGreen.png") no-repeat scroll 64px center / 26px auto;
+}
+.content-banner-overview{
+   bottom: -166px !important;
+}
+.les-enjuex.les-enjuex-overview {
+  margin-top: 220px;
+}
+.jumbotron.about-jumbotron.bi-jumbotron{
+  background: hsla(0, 0%, 0%, 0) url("../images/bussiness-intelligence-banner.jpg") repeat scroll center center / cover ;
+}
+.jumbotron.about-jumbotron.overview-jumbotron {
+  background: hsla(0, 0%, 0%, 0) url("../images/overview-banner.jpg") repeat scroll center center / cover ;
+}
+.jumbotron.about-jumbotron.overview-jumbotron, .jumbotron.about-jumbotron.offers-jumbotron, .jumbotron-contact, .bi-jumbotron {
+  min-height: 410px !important;
+}
+.icons-overview-row {
+  padding-bottom: 5px;
+  padding-top: 34px;
+}
+.icons-overview{
+  padding-bottom: 5px;
+  padding-top: 34px;
+}
+.icons-overview-row:last-child {
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+.two-sections.ov::after {
+  background: hsla(0, 0%, 0%, 0) url("../images/overview-blue-bg.jpg") repeat scroll 0 0 / cover ;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  z-index: 1;
+}
+.icons-overview {
+  padding-bottom: 30px;
+}
+}
+@media (max-width: 991px) {
+.two-sections.ov .blue{
+ background: hsla(0, 0%, 0%, 0) url("../images/overview-blue-bg.jpg") repeat scroll 0 0 / cover ;
+}
+}
+.first-tab-ov {
+  background: none;
+}
+.first-tab-ov.active {
+  background: none;
+}
+.second-tab-ov {
+  background: none;
+}
+.second-tab-ov.active {
+  background: none;
+}
+.third-tab-ov {
+  background: none;
+  line-height: 1em !important;
+  padding:2px 21px !important;
+}
+.third-tab-ov.active {
+  background: none;
 }
