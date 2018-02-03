@@ -1267,7 +1267,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .matu-heading {
   color: hsl(0, 0%, 100%);
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.5em;
   margin-bottom: 18px;
 }
@@ -1573,4 +1573,7 @@ ul.tabs li.active {
 }
 .third-tab-ov.active {
   background: none;
+}
+.matu-updated{
+ margin-bottom:0px;
 }
