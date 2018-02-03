@@ -1402,7 +1402,7 @@ ul.tabs li.active {
   background: hsla(0, 0%, 0%, 0) url("../images/Transformationgreen.png") no-repeat scroll 27px center / 26px auto;
 }
 .second-tab {
-  background: hsla(0, 0%, 0%, 0) url("../images/Perfectionnementgrey.png") no-repeat scroll 27px center / 26px auto;
+  background: hsla(0, 0%, 0%, 0) url("../images/PerfectionnementGrey.png") no-repeat scroll 27px center / 26px auto;
 }
 .second-tab.active {
   background: hsla(0, 0%, 0%, 0) url("../images/PerfectionnementGreen.png") no-repeat scroll 27px center / 26px auto;
