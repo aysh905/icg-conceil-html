@@ -1336,7 +1336,7 @@ ul.tabs li {
   border-bottom: 1px solid #eee !important;
   border-left: 1px solid #eee;
   border-top: 1px solid #eee;
-  color: hsl(222, 15%, 87%);
+  color: #bbb; /*hsl(222, 15%, 87%);*/
   cursor: pointer;
   float: left;
   font-family: vollkornregular;
