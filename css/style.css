@@ -94,6 +94,7 @@ html { height: 100%;}
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+	background: hsl(220, 18%, 97%) none repeat scroll 0 0 !important;
 }
 
 #wrapper.toggled {
@@ -1520,7 +1521,7 @@ ul.tabs li.active {
 .jumbotron.about-jumbotron.overview-jumbotron {
   background: hsla(0, 0%, 0%, 0) url("../images/overview-banner.jpg") repeat scroll center center / cover ;
 }
-.jumbotron.about-jumbotron.overview-jumbotron, .jumbotron.about-jumbotron.offers-jumbotron, .jumbotron-contact, .bi-jumbotron {
+.jumbotron.about-jumbotron.overview-jumbotron, .jumbotron.about-jumbotron.offers-jumbotron, .jumbotron-contact, .bi-jumbotron, .about-jumbotron {
   min-height: 410px !important;
 }
 .icons-overview-row {
@@ -1576,4 +1577,156 @@ ul.tabs li.active {
 }
 .matu-updated{
  margin-bottom:0px;
+}
+.jumbotron.jumbotron-contact {
+  background: hsla(0, 0%, 0%, 0) url("../images/contact-banner.jpg") repeat scroll center center / cover ;
+}
+  /*--------------------------------*/
+ /*            content page        */
+/*--------------------------------*/
+
+.content-banner-page{
+  margin-top: 175px;
+ } 
+ .article-category {
+  color: hsl(201, 100%, 13%);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-top: 23px !important;
+  text-transform: uppercase;
+}
+.content-banner-page h2 {
+  margin-top: 10px;
+}
+.writter-name {
+  color: hsl(201, 100%, 13%);
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 30px!important;
+}
+.about-jumbotron .content-banner-page {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  bottom: -70px;
+  box-shadow: 0 2px 8px 0 hsl(0, 0%, 80%);
+  padding: 5px 34px 1px;
+  position: absolute;
+  width: 521px;
+}
+.content-page-content {
+  margin-top: 129px;
+}
+.content-page-heading {
+  color: hsl(145, 61%, 32%);
+  font-family: vollkornregular;
+  font-size: 30px;
+}
+.content-para {
+  color: hsl(201, 100%, 13%);
+  font-size: 13px;
+}
+blockquote {
+  border-left: 0 none;
+  color: hsl(145, 61%, 32%);
+  font-family: vollkornitalic;
+  font-size: 43px;
+  font-weight: inherit !important;
+}
+.content-image-description {
+  color: hsla(201, 100%, 13%, 0.6);
+  font-size: 12px;
+  margin-bottom: 30px;
+  padding-top: 9px;
+}
+th {
+  color: hsl(145, 61%, 32%);
+  font-family: vollkornregular;
+  font-size: 16px;
+}
+.head-row {
+  color: hsla(201, 100%, 13%, 0.7);
+}
+.table-striped, .head-row,.table-striped th {
+  text-align: center;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: hsl(210, 14%, 97%);
+}
+tr {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  border:0px;
+}
+td {
+  border-left: 2px solid hsl(222, 15%, 87%) !important;
+  border-right: 2px solid hsl(222, 15%, 87%);
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border-top: 0px solid hsl(0, 0%, 87%);
+}
+.table > thead > tr > th {
+  border-bottom: 0 solid hsl(0, 0%, 87%);
+  border-left: 2px solid hsl(222, 15%, 87%) !important;
+  border-right: 2px solid hsl(222, 15%, 87%);
+  padding: 21px 14px 6px;
+  
+}
+.head-row{
+  border-bottom: 0px solid hsl(0, 0%, 87%);
+  border-left: 2px solid hsl(222, 15%, 87%) !important;
+  border-right: 2px solid hsl(222, 15%, 87%);
+  font-size: 14px;
+}
+tr:last-child td {
+  padding-bottom: 23px !important;
+}
+.content-writter img {
+  width: 150px;
+}
+.mug-name-content {
+  color: hsl(145, 61%, 32%);
+  font-family: vollkornitalic;
+  font-size: 24px;
+  line-height: 1em;
+  margin: 0;
+}
+.mug-position-content {
+  color: hsl(201, 100%, 13%);
+  font-size: 12px;
+  font-weight: 700;
+}
+.social-profiles-conten li{
+  list-style:none;
+}
+.social-profiles-conten li {
+  display: inline;
+  list-style: outside none none;
+  padding-right: 10px;
+}
+.social-profiles-conten li .fa  {
+  color: hsl(144, 61%, 32%);
+}
+.content-writter img {
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 3px;
+  margin-right: 25px;
+  width: 150px;
+  border-radius: 3px;
+}
+.content-writter {
+  display: inline-block;
+  margin: 40px 0;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+.content-banner-page {
+  width: 292px !important;
+}
+.content-writter > img {
+  display: inline-block;
+  float: none;
+}
+}
+.conten-jmbotron {
+  background: hsla(0, 0%, 0%, 0) url("../images/content-page-banner.jpg") repeat scroll center center / cover !important;
 }
