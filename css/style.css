@@ -1718,6 +1718,9 @@ tr:last-child td {
   margin: 40px 0;
   width: 100%;
 }
+.set-img-margin{
+margin: 30px 0 0;
+}
 @media only screen and (max-width: 767px) {
 .content-banner-page {
   width: 292px !important;
