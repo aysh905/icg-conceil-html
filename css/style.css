@@ -1741,12 +1741,49 @@ margin: 30px 0 0;
   background: hsla(0, 0%, 0%, 0) url("../images/jobs-banner.jpg") repeat scroll center center / cover !important;
 }
 .wrapper-jobs-page h2{
-
-
+border-bottom: 2px solid #d8dbe2;
+padding-bottom: 30px;
+}
+.wrapper-jobs-data{
+display:inline-block;
+border-bottom: 2px solid #d8dbe2;
+padding: 25px 0;
+}
+.wrapper-jobs-page .jobs-info-heading p a{
+color: #208449;
+font-size: 28px;
+  font-family: vollkornregular;
+}
+.wrapper-jobs-page .jobs-info-heading .jobsinfo{
+ width: 27px;
+height: 35px;
+margin-right: 5px;
+margin-bottom: 4px;
+}
+.wrapper-jobs-page .jobs-info-heading .jobsmap{
+ width: 27px;
+height: 35px;
+margin-left: 60px;
+margin-right: 5px;
+margin-bottom: 4px;
+}
+.wrapper-jobs-page .jobs-info-heading span{
+ font-size: 18px;
+  font-weight: 600;
+  color: #002b42;
+}
+.wrapper-jobs-data .set-date{
+ color: #002b42;
+font-size: 28px;
+  font-family: vollkornregular;
 }
 
-
-
+.wrapper-jobs-data .job-detail-link a{
+ color: #208449;
+ font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 
 
 
