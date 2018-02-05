@@ -1733,3 +1733,17 @@ margin: 30px 0 0;
 .conten-jmbotron {
   background: hsla(0, 0%, 0%, 0) url("../images/content-page-banner.jpg") repeat scroll center center / cover !important;
 }
+
+  /*--------------------------------*/
+ /*            jobs page           */
+/*--------------------------------*/
+.jumbotron-contact.jobs {
+  background: hsla(0, 0%, 0%, 0) url("../images/jobs-banner.jpg") repeat scroll center center / cover !important;
+}
+
+
+
+
+
+
+
