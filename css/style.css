@@ -1620,6 +1620,7 @@ ul.tabs li.active {
   color: hsl(145, 61%, 32%);
   font-family: vollkornregular;
   font-size: 30px;
+  margin-top: 45px;
 }
 .content-para {
   color: hsl(201, 100%, 13%);
@@ -1801,4 +1802,87 @@ font-size: 26px;
 .padding-right-zero{
   padding-right:0px;
 }
-
+.jobsinfo {
+  margin-bottom: 4px;
+  margin-right: 5px;
+  width: 21px;
+}
+.jobs-info-recruitment span {
+  color: hsl(201, 100%, 13%);
+  font-size: 18px;
+  font-weight: 600;
+}
+.jobsmap {
+  margin-bottom: 4px;
+  margin-right: 5px;
+  width: 24px;
+}
+.jobs-info-recruitment span {
+  color: hsl(201, 100%, 13%);
+  font-size: 18px;
+  font-weight: 600;
+}
+.jobs-info-recruitment {
+  margin-top: 12px;
+  text-align: center;
+}
+.content-banner-contact.recruitment-head {
+  margin: 0 auto !important;
+  padding: 27px 60px;
+  position: relative;
+  text-align: center;
+  top: 51px;
+  width: 789px;
+}
+.jobs-info-recruitment .set-date {
+  color: hsl(201, 100%, 13%);
+  font-family: vollkornregular;
+  font-size: 22px;
+  margin-top: 12px;
+}
+.list-items{
+ padding-left: 15px;
+}
+.list-items li{
+  color: hsl(201, 100%, 13%);
+  font-size: 15px;
+}
+.recruitment-form {
+  margin-top: 80px;
+}
+.votre-heading {
+  color: hsl(145, 62%, 32%);
+  font-family: vollkornregular;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+.apply-cv-letter .set-date {
+  color: hsl(201, 100%, 13%);
+  padding-top: 66px;
+  text-align: center;
+}
+.apply-cv-letter.clearfix {
+  border-bottom: 2px solid hsl(222, 15%, 87%);
+  padding: 5px 0 30px;
+}
+.btn.btn-primary.cv-submit{
+  margin-top:35px;
+}
+.navbar-form{
+  box-shadow: none;
+}
+@media only screen and (max-width: 1098px) {
+.content-banner-contact.recruitment-head {
+  margin: 0 auto !important;
+  padding: 27px 60px;
+  position: relative;
+  text-align: center;
+  top: 19px;
+  width: 497px;
+}
+}
+@media only screen and (max-width: 767px) {
+.content-banner-contact.recruitment-head {
+  width: auto;
+}
+}
