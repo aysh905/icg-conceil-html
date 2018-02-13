@@ -63,7 +63,6 @@ body,
 html {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
-    overflow-y: auto;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     color: #6f6f6f;
@@ -75,7 +74,6 @@ a:focus {
 }
 
 body {
-    position: relative;
     overflow-x: hidden;
 }
 body,
